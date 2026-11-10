@@ -1,0 +1,7 @@
+node_modules/
+dist/
+.wrangler/
+.dev.vars
+freebuff-sites-build/
+/freebuff-sites-build/
+.tools/

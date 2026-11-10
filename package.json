@@ -1,0 +1,14 @@
+{
+  "name": "landing",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev --ip 0.0.0.0 --port 3000",
+    "check": "wrangler deploy --dry-run --outdir dist",
+    "serve": "python3 -m http.server 3000 --bind 0.0.0.0 --directory public"
+  },
+  "devDependencies": {
+    "wrangler": "^4"
+  }
+}
